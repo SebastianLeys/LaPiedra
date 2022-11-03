@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 #texto {
     font-family: 'Playfair Display', serif;
 }
@@ -19,7 +22,7 @@ footer{
     color: rgb(0, 11, 20);
 }
 .nav-bar{
-    background-image: url(https://media.staticontent.com/media/pictures/a5f70bd2-a00c-4c37-8e1a-64bae1549844);
+    background-image:Vi;
     background-size: cover;
     height: 100vh;
 }
@@ -33,5 +36,81 @@ footer{
     
 }
 #tandil{
-    padding-top: 100px !important;
+    margin-top: 290px !important;
+    font-size: 180px !important;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 4px 4px 12px rgba(0,0,0,0.62);
+        
 }
+#logo{
+    font-family: 'Dancing Script', cursive;
+}
+#nav-tandil{
+    padding-left:  100px !important;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0px -1px 2px rgba(0,0,0,0.63);
+}
+#nav-tandil2{
+    font-family: 'Playfair Display', serif;
+    text-shadow: 0px -1px 2px rgba(0,0,0,0.63);
+}
+#video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+main{
+    background-color: aliceblue;
+}
+#foto-uno{
+    object-fit: cover !important;
+}
+
+@media (width <= 950px) {
+ #tandil{
+    font-size: 160px !important;
+    margin-top: 0 !important;
+ }
+
+
+}
+
+@media (width <= 400px) {
+    #tandil{
+       font-size: 80px !important;
+       margin-top: 150px !important;
+    }
+    
+   }
+   @media (width <= 440px){
+    #nav-tandil2{
+    margin-left: 0x !important ;
+    font-size: 20px!important;
+
+    }
+    #nav-tandil{
+        padding-left: 0 !important;
+        font-size: 20px!important;
+    }
+
+   }
+
+   @media (width <= 300px){
+    #nav-tandil2{
+    margin-left: 1px !important ;
+    font-size: 15px!important;
+
+    }
+    #nav-tandil{
+        padding-left: 1px !important;
+        padding-right: -25px;
+        font-size: 15px!important;
+    }
+
+   }
