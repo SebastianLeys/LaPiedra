@@ -30,6 +30,12 @@ footer{
     display: grid;
     grid-auto-rows: minmax(60px, auto);
 }
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 10px 10px 58px 23px rgba(0,0,0,0.26);
+-webkit-box-shadow: 10px 10px 58px 23px rgba(0,0,0,0.26);
+-moz-box-shadow: 10px 10px 58px 23px rgba(0,0,0,0.26);
+}
 #banner{
     background-position: center;
     background-size: cover;
@@ -44,26 +50,29 @@ footer{
 }
 #logo{
     font-family: 'Dancing Script', cursive;
+    margin-top: -35px !important;
 }
 #nav-tandil{
     padding-left:  100px !important;
     font-family: 'Playfair Display', serif;
     text-shadow: 0px -1px 2px rgba(0,0,0,0.63);
+    margin-top: -25px !important;
 }
 #nav-tandil2{
     font-family: 'Playfair Display', serif;
     text-shadow: 0px -1px 2px rgba(0,0,0,0.63);
+    margin-top: -25px !important;
 }
 #video{
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
+    width: 100vw !important;
+    height: 100vh !important;
+    object-fit: cover !important;
+    position: fixed !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    z-index: -1 !important;
 }
 main{
     background-color: aliceblue;
@@ -71,7 +80,31 @@ main{
 #foto-uno{
     object-fit: cover !important;
 }
-
+#cartas{
+    max-width: 500px;
+    height: 200px!important;
+}
+#cartas:hover{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+#grande{
+    width: 1900px;
+    height: 1300px;
+}
+main{ 
+    background-image: url(https://media.staticontent.com/media/pictures/a5f70bd2-a00c-4c37-8e1a-64bae1549844);
+}
+#primerTab{
+    background-color: aliceblue;
+}
 @media (width <= 950px) {
  #tandil{
     font-size: 160px !important;

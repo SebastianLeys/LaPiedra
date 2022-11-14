@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body{
+background-image: url(https://images.pexels.com/photos/5635116/pexels-photo-5635116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-size:100%;
+background-repeat:no-repeat;
+}
+nav{
+    height: 80px;
+    background-color: black;
+}
+
+#nav-tandil{
+    margin-bottom: 60px;
+    text-decoration: none;
+    list-style: none!important;
+}
+#nav-tandil2{
+    margin-bottom: 60px;
+    list-style: none!important;
+}
+#logo{
+    margin-top: -73px!important;
+    text-decoration: none;
+    list-style: none!important;
+}
+ul{
+    text-decoration: none!important;
+}
+a{
+    color: none;
+}
+#titulo{
+    font-size: 130px !important;
+    font-family: 'Dancing Script', cursive!important;
+    text-shadow: 4px 4px 12px rgba(0,0,0,0.62)!important;
+    text-align: center;
+    color: white;
+}
+h4{
+    text-align: center!important;
+    color: white;
+}
+#cartas{
+    max-width: 360px!important;
+    height: 340px!important;
+    max-height: 340px!important;
+    
+}
+
+p, h5{
+    color: #fff!important;
+}
