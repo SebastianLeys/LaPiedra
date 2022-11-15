@@ -8,20 +8,8 @@ background-image: url(https://images.pexels.com/photos/5635116/pexels-photo-5635
 background-size:100%;
 background-repeat:no-repeat;
 }
-nav{
-    height: 80px;
-    background-color: black;
-}
 
-#nav-tandil{
-    margin-bottom: 60px;
-    text-decoration: none;
-    list-style: none!important;
-}
-#nav-tandil2{
-    margin-bottom: 60px;
-    list-style: none!important;
-}
+
 #logo{
     margin-top: -73px!important;
     text-decoration: none;
@@ -48,9 +36,108 @@ h4{
     max-width: 360px!important;
     height: 340px!important;
     max-height: 340px!important;
-    
+   
 }
 
 p, h5{
     color: #fff!important;
+}
+.footer-basic {
+    padding:0;
+    background-color:#202020;
+    color:#fbfdff;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  footer{
+    margin-bottom: 50px;
+    padding: 0;
+    display: relative;
+}
+#pie{
+    margin-bottom: -50px;
+    display: relative;
+    
+
+}
+#cartaa{
+    margin-bottom: 20px;
+}
+  @media (width <=1380px){
+    body{
+        background-size: 200%!important;
+    }
+}
+@media (width <=940px){
+    body{
+        background-size: 400%!important;
+    }
+}
+@media (width <=660px){
+    body{
+        background-size: 600%!important;
+    }
+    #titulo{
+        font-size: 50px!important;
+    }
+    h4{
+        font-size: 20px!important;
+    }
+}
+@media (width <=300px){
+    body{
+        background-size: 700%!important;
+    }
 }

@@ -11,7 +11,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.rtl.min.css"
             integrity="sha384-7mQhpDl5nRA5nY9lr8F1st2NbIly/8WqhjTp+0oFxEA/QUuvlbF6M1KXezGBh3Nb" crossorigin="anonymous">
-        <link rel="stylesheet" href="/estilos.css/gastronomia.css">
+        <link rel="stylesheet" href="estilos.css/activades.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
     
     <meta charset="UTF-8">
@@ -26,55 +26,80 @@
     <title>Actividades</title>
 </head>
 
- <nav>
-    <ul class="navbar justify-content-center m-auto">
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <a  style="color: rgb(252, 252, 252)" class="navbar-brand" href="index.html">LP</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
         <li class="nav-item">
-            <a id="nav-tandil2" style="color: rgb(253, 249, 249)" class="nav-link fw-bold fs-5 p-3" href="#">Contacto</a>
+          <a style="color: rgb(252, 252, 252)" class="nav-link" href="sobreNosotros.html">Quienes somos</a>
         </li>
         <li class="nav-item">
-            <a style="color: black" class="navbar-brand" href="#">
-                <a href="index.html"><p id="logo" style="color: white" class="text-center fs-1 m-3 fw-bold">LP</p></a>
-            </a>
+          <a style="color: rgb(252, 252, 252)" class="nav-link" href="contacto.html">Contacto</a>
         </li>
-        <li class="nav-item">
-            <a id="nav-tandil" style="color: rgb(252, 252, 252)" class="nav-link fw-bold fs-5 p-3 " href="#">Tandil</a>
-        </li>
-    </ul>
-</Nav>
- </nav>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 <body>
     <h3 id="titulo">¿Que ofrece Tandil?</h3>
 <h4>Tandil cuenta con una gran variedad de actividades distintas para disfrutar solo o en familia.</h4>
 
-<div class="row row-cols-1 m-3 p-3  justify-content-center">
-    <div class="card bg-dark border-grey " style="width: 18rem; margin-right:2rem ;">
-        <img id="cartas " src="https://images.pexels.com/photos/2491273/pexels-photo-2491273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Parrillas</h5>
-          <p class="card-text">Tandil cuenta con algunas de las mejores parrillas </p>
-        <center><button type="button" class="btn btn-outline-light">Light</button></center>
-        </div>
-      </div>
-      <div class="card bg-dark border-grey" style="width: 18rem;margin-right:2rem ;">
-        <img id="cartas" src="https://images.pexels.com/photos/10006751/pexels-photo-10006751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Cafeterías</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <center><button type="button" class="btn btn-outline-light">Light</button></center>
-        </div>
-      </div>
-      <div class="card bg-dark border-grey" style="width: 18rem;">
-        <img id="cartas" src="https://images.pexels.com/photos/4992715/pexels-photo-4992715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Regionales</h5>
-          <p class="card-text">Tandil cuenta con los mejores productos regionales del pais, ¿que esperas para probarlos?</p>
-          <center><button type="button" class="btn btn-outline-light ">Light</button></center>
-        </div>
-      </div>
+<section>
+  <div class="cards-list">
+  
+    <div class="card 1">
+                <div  class="card_image"> <img src="./img/tirolina.jpeg" /> </div>
+                <div class="card_title title-white">
+                  
+                  <p>VALLE PICAPEDRERO</p>
+                </div>
+              </div>
+              
+                <div class="card 2">
+                <div class="card_image">
+                  <img src="./img/valle.jpeg" />
+                  </div>
+                <div class="card_title title-white">
+                  <p>ECO SIERRAS</p>
+                </div>
+    
+              </div>
 
-
-
+              <div class="card 3">
+                <div class="card_image">
+                  <img src="./img/zoo.jpeg" />
+                  </div>
+                <div class="card_title title-white">
+                  <p>MINI ZOO</p>
+                </div>
+              
+    
+    <div>
+</section>
 
 </body>
+<div class="footer-basic">
+  <footer>
+      <div class="social">
+        <a href="https://github.com/SebastianLeys/ProyectoTurismo"><i class="icon ion-social-twitter"><img src="./img/git.png" height="40px" width="40px" alt=""></i>
+        </a>
+        <a href="https://www.uade.edu.ar"><i class="bi bi-github"> <img src="./img/uade.png" height="40px" width="50px" alt=""></i>
+        </a>
+      </div>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Ezequiel Conde</a></li>
+          <li class="list-inline-item"><a href="#">Sebastian Leys</a></li>
+          <li class="list-inline-item"><a href="#">Maximo mei</a></li>
+          <li class="list-inline-item"><a href="#">Lopes rey</a></li>
+          <li class="list-inline-item"><a href="#">Eugue Linares</a></li>
+          <li class="list-inline-item"><a href="#">Patricia carine</a></li>
+          <li class="list-inline-item"><a href="#">Diseño y desarollo Web</a></li>
+      </ul>
+      <p class="copyright">Company Name © 2022</p>
+  </footer>
 </html>
