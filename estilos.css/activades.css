@@ -104,10 +104,11 @@ p, h5{
   .title-black {
     color: black;
   }
-  .footer-basic {
-    padding:0;
+.footer-basic {
+    padding:40px 0;
     background-color:#202020;
     color:#fbfdff;
+    display: relative;
   }
   
   .footer-basic ul {
@@ -163,16 +164,6 @@ p, h5{
     color:#aaa;
     margin-bottom:0;
   }
-
-#pie{
-    margin-bottom: -150px!important;
-    
-    position: relative;
-    margin-top: 20px;
-    
-    
-
-}
   #cartaa{
     margin-bottom: 70px;
 }
@@ -182,6 +173,12 @@ p, h5{
     body{
         background-size: 160%!important;
     }
+    .footer-basic {
+      padding:40px 0;
+      background-color:#202020;
+      color:#fbfdff;
+      position: relative!important;
+    }
 }
 @media (width <=990px){
     body{
@@ -190,17 +187,41 @@ p, h5{
     #titulo{
         font-size:80px!important ;
     }
+    .footer-basic {
+      padding:40px 0;
+      background-color:#202020;
+      color:#fbfdff;
+      position: relative!important;
+    }
 }
 @media (width <=670px){
     body{
         background-size: 1200%!important;
+    }
+    .footer-basic {
+      padding:40px 0;
+      background-color:#202020;
+      color:#fbfdff;
+      position: relative!important;
     }
 }
 @media (width <=340px){
     body{
         background-size: 1700%!important;
     }
+    .footer-basic {
+      padding:40px 0;
+      background-color:#202020;
+      color:#fbfdff;
+      position: relative!important;
+    }
+    
 }
-
-
-
+@media (width <=1250x){
+  .footer-basic {
+    padding:40px 0;
+    background-color:#202020;
+    color:#fbfdff;
+    position: relative!important;
+  }
+}
