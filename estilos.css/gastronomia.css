@@ -101,19 +101,23 @@ p, h5{
     color:#aaa;
     margin-bottom:0;
   }
-  footer{
-    margin-bottom: 50px;
-    padding: 0;
-    display: relative;
-}
+
 #pie{
-    margin-bottom: -50px;
-    display: relative;
+    margin-bottom: -150px!important;
+    
+    position: relative;
+    margin-top: 20px;
+    
     
 
 }
 #cartaa{
     margin-bottom: 20px;
+}
+.avisoLegal{
+  text-align: center!important;
+  font-size: 10px!important;
+
 }
   @media (width <=1380px){
     body{
