@@ -165,4 +165,8 @@ label{
         background-size: 400%!important;
     }
 }
-
+@media (width <=530px){
+    body{
+        background-size: 1000%!important;
+    }
+}
