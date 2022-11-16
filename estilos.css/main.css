@@ -243,6 +243,10 @@ main{
     color:#aaa;
     margin-bottom:0;
   }
+  #texto{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 11px rgba(0,0,0,0.46);
+  }
 @media (width <= 950px) {
  #tandil{
     font-size: 160px !important;
