@@ -38,6 +38,14 @@ h4{
     
 }
 
+
+#pie{
+    display: fixed!important;
+    position: bottom!important;
+  height: 300px;
+  margin-top: 100px;
+}
+
 p, h5{
     color: #fff!important;
 }
