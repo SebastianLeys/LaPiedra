@@ -42,10 +42,12 @@ h4{
 p, h5{
     color: #fff!important;
 }
+
 .footer-basic {
     padding:40px 0;
     background-color:#202020;
     color:#fbfdff;
+    position: relative;
   }
   
   .footer-basic ul {
@@ -73,12 +75,12 @@ p, h5{
   
   .footer-basic .social {
     text-align:center;
-    padding-bottom:25px;
+    padding-bottom:0px;
   }
   
   .footer-basic .social > a {
     font-size:24px;
-    width:40px;
+    width:50px;
     height:40px;
     line-height:40px;
     display:inline-block;
@@ -131,6 +133,11 @@ footer{
 label{
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
+}
+.avisoLegal{
+  text-align: center!important;
+  font-size: 10px!important;
+
 }
 @media (width <=1380px){
     body{
