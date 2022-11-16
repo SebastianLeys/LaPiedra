@@ -20,6 +20,7 @@ ul{
 footer{
     text-align: center;
     color: rgb(0, 11, 20);
+    position: relative!important;
 }
 .nav-bar{
     background-image:Vi;
@@ -47,6 +48,12 @@ footer{
     font-family: 'Dancing Script', cursive;
     text-shadow: 4px 4px 12px rgba(0,0,0,0.62);
         
+}
+.avisoLegal{
+  text-align: center!important;
+  font-size: 10px!important;
+  color: white;
+
 }
 #logo{
     font-family: 'Dancing Script', cursive;
@@ -178,7 +185,8 @@ main{
 .footer-basic {
     padding:40px 0;
     background-color:#202020;
-    color: #fbfdff !important;;
+    color: #fbfdff !important;
+    position: relative;
   }
   
   .footer-basic ul {
