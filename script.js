@@ -83,18 +83,18 @@ function MostrarPrecioTotal()
 
     if (document.getElementById("P1").checked == true)
     {
-        precio +=5000 *
+        precio +=6000 *
 document.getElementById("cantP1").value;    
     }   
 
     if (document.getElementById("P2").checked == true)
     {
-    precio += 7000 *
+    precio += 4500 *
 document.getElementById("cantP2").value;
     }
     if (document.getElementById("P3").checked == true)
     {
-        precio += 9000*
+        precio += 2400*
     
 document.getElementById("cantP3").value;
     }
