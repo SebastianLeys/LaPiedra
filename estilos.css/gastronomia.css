@@ -140,8 +140,8 @@ p, h5{
         font-size: 20px!important;
     }
 }
-@media (width <=340px){
+@media (width <=400px){
     body{
-        background-size: 1700%!important;
+        background-size: 1000%!important;
     }
 }
