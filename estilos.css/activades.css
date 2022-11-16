@@ -104,8 +104,8 @@ p, h5{
   .title-black {
     color: black;
   }
-.footer-basic {
-    padding:40px 0;
+  .footer-basic {
+    padding:0;
     background-color:#202020;
     color:#fbfdff;
   }
@@ -163,19 +163,21 @@ p, h5{
     color:#aaa;
     margin-bottom:0;
   }
-  #cartaa{
-    margin-bottom: 70px;
-}
-footer{
-    margin: 0;
-    padding: 0;
-}
+
 #pie{
-    margin-bottom: -50px;
-    display: block;
+    margin-bottom: -150px!important;
+    
+    position: relative;
+    margin-top: 20px;
+    
     
 
 }
+  #cartaa{
+    margin-bottom: 70px;
+}
+
+
 @media (width <=1580px){
     body{
         background-size: 160%!important;
